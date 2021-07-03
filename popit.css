@@ -20,7 +20,7 @@ body {
 }
 
 .button {
-  box-shadow: inset 8px 8px 8px rgba(255, 255, 255, 0.6), inset -8px -8px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 8px 8px 8px rgba(255, 255, 255, 0.7), inset -8px -8px 8px rgba(0, 0, 0, 0.3);
   border-radius: 50%;
   font-family: sans-serif;
   width: 40px;
@@ -35,36 +35,38 @@ body {
   transition: 500ms;
 }
 
+/* #E6AC0C */
+
 #a1 {
-  background-color: rgba(255, 0, 0, 0.7);
+  background-color: rgba(255, 0, 0, 0.8);
 }
 
 #a2 {
-  background-color: rgba(255, 166, 0, 0.7);
+  background-color: rgba(255, 120, 0, 0.8);
 }
 
 #a3 {
-  background-color: rgba(255, 255, 0, 0.7);
+  background-color: rgba(226, 226, 0, 0.8);
 }
 
 #a4 {
-  background-color: rgba(0, 128, 0, 0.7);
+  background-color: rgba(0, 128, 0, 0.8);
 }
 
 #a5 {
-  background-color: rgba(0, 191, 255, 0.7);
+  background-color: rgba(0, 191, 255, 0.8);
 }
 
 #a6 {
-  background-color: rgba(0, 0, 255, 0.7);
+  background-color: rgba(0, 0, 255, 0.8);
 }
 
 #a7 {
-  background-color: rgba(128, 0, 128, 0.7);
+  background-color: rgba(128, 0, 128, 0.8);
 }
 
 .pressed {
-  box-shadow: inset 8px 8px 8px rgba(0, 0, 0, 0.5), inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+  box-shadow: inset 8px 8px 8px rgba(0, 0, 0, 0.55), inset -8px -8px 8px rgba(255, 255, 255, 0.2);
 }
 
 footer {

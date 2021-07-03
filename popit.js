@@ -26,7 +26,7 @@ function snd(number) {
   pop2.currentTime = 0;
   if (number === 1) { pop1.play() }
   if (number === 2) { pop2.play() }
-  navigator.vibrate(100)
+  navigator.vibrate(135)
 }
 
 buttons.forEach(button => button.addEventListener('click', () => { snd(randomInteger(1, 2)) }))
