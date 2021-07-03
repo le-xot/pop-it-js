@@ -73,6 +73,6 @@ class Swipe {
 }
 
 const swiper = new Swipe('body')
-swiper.onLeft(() => console.log('You swiped left.'))
-swiper.onRight(() => console.log('You swiped right.'))
+swiper.onLeft(() => alert('You swiped left.'))
+swiper.onRight(() => alert('You swiped right.'))
 swiper.run()
