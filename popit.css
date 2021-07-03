@@ -2,18 +2,27 @@ body {
   user-select: none;
 }
 
-.popit {
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 50%;
+.flip {
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
   position: absolute;
+  bottom: -50px;
+  left: 0;
+}
+
+.popit {
+  cursor: pointer;
+  overflow: hidden;
   justify-content: space-evenly;
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
+  border-radius: 20px;
 }
 
 .button {
-  box-shadow: inset 8px 8px 8px rgba(255, 255, 255, 0.6),inset -8px -8px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.25s all;
+  box-shadow: inset 8px 8px 8px rgba(255, 255, 255, 0.6), inset -8px -8px 8px rgba(0, 0, 0, 0.3);
   border-radius: 50%;
   font-family: sans-serif;
   width: 40px;
@@ -26,8 +35,6 @@ body {
 
 #a1 {
   background-color: rgba(255, 0, 0, 0.7);
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
 }
 
 #a2 {
@@ -52,10 +59,27 @@ body {
 
 #a7 {
   background-color: rgba(128, 0, 128, 0.7);
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
 }
 
 .pressed {
-  box-shadow: inset 8px 8px 8px rgba(0, 0, 0, 0.5),inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+  box-shadow: inset 8px 8px 8px rgba(0, 0, 0, 0.5), inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+}
+
+footer {
+  
+  font-family: sans-serif;
+  font-size: smaller;
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+}
+.contain{
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  position: absolute;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
 }

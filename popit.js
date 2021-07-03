@@ -9,6 +9,14 @@ function randomInteger(min, max) {
   return Math.floor(rand);
 }
 
+function reverseColumns() {
+  const columns = document.querySelectorAll(".column")
+  const popit = document.querySelector(".popit")
+
+  for (let i = 1; i < columns.length; i++) {
+    popit.insertBefore(columns[i], columns[i - 1])
+  }
+}
 
 const buttons = document.querySelectorAll('.button')
 
@@ -27,3 +35,9 @@ function snd(number) {
 }
 
 buttons.forEach(button => button.addEventListener('click', () => { snd(randomInteger(1, 2)) }))
+document.querySelector('.flip').onclick = () => {
+
+  const columns = document.querySelectorAll('.column')
+  reverseColumns()
+  buttons.forEach(button => button.classList.toggle('pressed'))
+}
