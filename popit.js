@@ -46,7 +46,7 @@ class Swipe {
       this.xDiff = this.xDown - xUp;
       this.yDiff = this.yDown - yUp;
 
-      if ( Math.abs( this.xDiff ) > Math.abs( this.yDiff ) ) { // Most significant.
+      if ( Math.abs( this.xDiff ) > Math.abs( this.yDiff ) ) { 
           if ( this.xDiff > 0 ) {
               this.onLeft();
           } else {
@@ -78,7 +78,6 @@ const pop2 = document.querySelector('.sound2')
 let number = randomInteger(1, 2)
 
 function randomInteger(min, max) {
-  // случайное число от min до (max+1)
   let rand = min + Math.random() * (max + 1 - min);
   return Math.floor(rand);
 }
