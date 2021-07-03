@@ -23,7 +23,7 @@ function snd(number) {
   pop += number
   if (number === 1) { pop1.play() }
   if (number === 2) { pop2.play() }
-  navigator.vibrate(80)
+  navigator.vibrate(50)
 }
 
 buttons.forEach(button => button.addEventListener('click', () => { snd(randomInteger(1, 2)) }))
