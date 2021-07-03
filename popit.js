@@ -41,3 +41,4 @@ document.querySelector('.flip').onclick = () => {
   reverseColumns()
   buttons.forEach(button => button.classList.toggle('pressed'))
 }
+
