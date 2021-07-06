@@ -72,7 +72,7 @@ class Swipe {
   }
 }
 
-const swiper = new Swipe('.contain')
+const swiper = new Swipe('.container')
 const pop1 = document.querySelector('.sound1')
 const pop2 = document.querySelector('.sound2')
 let number = randomInteger(1, 2)
