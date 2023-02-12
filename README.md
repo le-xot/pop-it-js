@@ -1,4 +1,4 @@
 # popit
 My own popit for relaxing
 
-le-xot.ru/popit/
+https://pop-it-js.vercel.app/
